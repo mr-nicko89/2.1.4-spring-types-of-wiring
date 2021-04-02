@@ -27,6 +27,7 @@ public class MainTest {
         if (!testText.contains(text) && testText.length() <= text.length()) {
             Assert.fail("Тест провален, не корректная связь бинов. Итоговая фраза не верна.");
         }
+//        Безполезный комментарий
     }
 
 }
